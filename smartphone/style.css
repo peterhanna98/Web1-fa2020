@@ -1,0 +1,289 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    
+}
+
+body{
+
+
+    height: 850px;
+    background-image: linear-gradient(rgb(230, 228, 116), rgb(87, 179, 171));
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container{
+
+    width: 400px;
+    height: 700px;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgb(139, 245, 136), rgb(87, 179, 171));
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+   
+
+}
+
+
+.box {
+  width: 60px;
+  height: 60px;
+  background: blue;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  
+}
+
+#box1{
+
+    background-image: linear-gradient(rgb(255, 215, 35), rgb(87, 179, 171));
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+
+}
+
+#box2{
+
+    background-image: linear-gradient(rgb(245, 96, 237), rgb(87, 179, 171));
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+
+}
+
+#box3{
+
+    background-image: linear-gradient(rgb(233, 44, 107), rgb(87, 179, 171));
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+
+}
+
+#box4{
+
+    background-image: linear-gradient(rgb(56, 39, 209), rgb(87, 179, 171));
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+
+}
+
+#box5{
+
+    background-image: linear-gradient(rgb(3, 41, 1), rgb(87, 179, 171));
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+
+}
+
+#box6{
+
+    background-image: linear-gradient(rgb(0, 124, 37), rgb(87, 179, 171));
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+
+}
+
+#box7{
+
+    background-image: linear-gradient(rgb(151, 43, 0), rgb(87, 179, 171));
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+
+}
+
+#box8{
+
+    background-image: linear-gradient(rgb(83, 0, 28), rgb(87, 179, 171));
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+
+}
+
+#box9{
+
+    background-image: linear-gradient(rgb(214, 255, 176), rgb(87, 179, 171));
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+
+}
+
+#box10{
+
+    background-image: linear-gradient(rgb(243, 125, 164), rgb(87, 179, 171));
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+
+}
+
+#box11{
+
+    background-image: linear-gradient(rgb(139, 92, 250), rgb(87, 179, 171));
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+
+}
+    
+#box12{
+
+    background-image: linear-gradient(rgb(184, 252, 74), rgb(87, 179, 171));
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+
+}
+
+#box13{
+
+    background-image: linear-gradient(rgb(17, 159, 202), rgb(87, 179, 171));
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+
+}
+
+#box14{
+
+    background-image: linear-gradient(rgb(70, 69, 87), rgb(87, 179, 171));
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+
+}
+
+#box15{
+
+    background-image: linear-gradient(rgb(126, 96, 106), rgb(87, 179, 171));
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+
+}
+
+#box16{
+
+    background-image: linear-gradient(rgba(85, 0, 0, 0.568), rgb(87, 179, 171));
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+
+}
+
+#box17{
+
+    background-image: linear-gradient(rgb(255, 191, 118), rgb(87, 179, 171));
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+
+}
+
+#box18{
+
+    background-image: linear-gradient(rgb(233, 145, 44), rgb(87, 179, 171));
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+
+}
+
+#box19{
+
+    background-image: linear-gradient(rgb(221, 118, 0), rgb(87, 179, 171));
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+
+}
+
+#box20{
+
+    background-image: linear-gradient(rgb(255, 94, 0), rgb(87, 179, 171));
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+
+}
+
+#box21{
+
+    background-image: linear-gradient(rgb(22, 7, 107), rgb(87, 179, 171));
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+
+}
+
+#box22{
+
+    background-image: linear-gradient(rgb(48, 3, 18), rgb(87, 179, 171));
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+
+}
+
+#box23{
+
+    background-image: linear-gradient(rgb(94, 44, 233), rgb(87, 179, 171));
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+
+}
+
+#box24{
+
+    background-image: linear-gradient(rgb(233, 44, 44), rgb(87, 179, 171));
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+
+}
