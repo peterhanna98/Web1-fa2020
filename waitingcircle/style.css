@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+}
+
+
+body{
+
+    height: 100%;
+    background-color: firebrick;
+    display: flex;
+  
+    justify-content: center;
+}
+
+.box {
+
+	width: 150px;
+    height: 150px;
+    display: flex;
+    position: absolute;
+    top: 35%;
+    border-radius: 50%;
+	border-top: 10px solid #feffa5;
+	bottom: 3px solid transparent;
+	left: 3px solid transparent;
+    right: 3px solid transparent;
+   
+
+    animation: circl 1s infinite linear;
+}
+   
+    
+@keyframes circl {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
