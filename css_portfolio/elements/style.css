@@ -1,0 +1,9 @@
+p::after {
+    content: "no to this";
+    color: red;
+}
+
+p::before {
+    content: "yes to this";
+    color: green;
+}

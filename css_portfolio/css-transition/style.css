@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    color: blue;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    transition: width 2s;
+}
+
+.box:hover{
+    width: 1000px;
+}
