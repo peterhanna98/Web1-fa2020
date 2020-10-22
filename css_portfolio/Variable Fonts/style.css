@@ -1,6 +1,7 @@
 p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
-    font-variation-settings: "wght" 650, "wdth"
-50;
+    font-family:'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: peru;
+
 }
