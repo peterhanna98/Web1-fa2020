@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+ }
+ 
+ body{
+     height: auto;
+     
+ }
+ 
+ .container{
+ 
+     width: 80vw;
+     height: 100vh;
+     background-color: antiquewhite;
+     margin: auto;
+ 
+ }
+ 
+
+ 
+ p{
+     color: rgb(110, 0, 0);
+     text-align: center;
+   
+     font-size: 3vw;
+     font-family: 'Itim', cursive;
+   
+     
+ }
+ 
+ b{
+     color: rgb(0, 84, 139);
+     font-size: 2vw;
+ }
+ 
+ ul{
+     text-align: center;  
+    
+ }
+ 
+ li{
+     
+     display: inline;
+     padding: 10%;
+ 
+ 
+ 
+ 
+ 
+ }
+ 
+ a{
+     text-decoration: none;
+     color: lightslategray;
+     font-size: 4vw;
+     font-family: 'Itim', cursive;
+ 
+ }
+ 
+ a:hover{
+     color: rgb(110, 0, 0);
+ }
+
+
+ .link{
+
+    text-align: center;
+    margin: 33%;
+    font-size: 2vw;
+    color: rgb(0, 84, 139);
+    
+
+ }
