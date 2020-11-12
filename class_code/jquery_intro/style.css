@@ -1,0 +1,13 @@
+.box{
+    background-color: blue;
+    height: 100px;
+    width:100px;
+    margin: 10px;
+}
+
+.box1{
+    background-color:red;
+    height: 100px;
+    width:100px;
+    margin: 10px;
+}
