@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 319px) and (max-width: 575px)
+{ 
+    #navImage
+    {
+        margin-top: 20px;
+        margin-left: 0px !important;
+    }
+    #maskImage3, #maskImage1, #maskImage6
+    {
+
+        display: none !important;
+    }
+    #topImage #projectImage
+    {
+        display: inline-block !important;
+    }
+    #topImage2 #projectImage
+    {
+        display: none !important; 
+    }
+    .jumbotron h2
+    {
+    font-size: 30px !important;
+    }
+    .skillimg{
+        width: 90% !important;
+    }
+    
+  
+
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) 
+{ 
+    #navImage
+    {
+        margin-top: 20px;
+        margin-left: 0px !important;
+    }
+
+    #maskImage3, #maskImage1, #maskImage6
+    {
+        width: 75%;
+        height: auto;
+        display: none !important;
+    }
+    .jumbotron h2
+    {
+    font-size: 30px !important;
+    }
+   .skillimg{
+        width: 90% !important;
+    }
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px)
+{ 
+#maskImage1, #maskImage6
+    {
+
+        display: none !important;
+    }
+    .skillimg{
+        width: 90% !important;
+    }
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width:1100px)
+{ 
+#maskImage1, #maskImage6
+    {
+
+        display: none !important;
+    }
+    .skillimg{
+        width: 90% !important;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) 
+{
+    
+}
+
+body
+{
+    background-color: black;
+    border: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+#maskImage3
+{
+    position: absolute;
+    left: 85%;
+    width: 15%;
+    float: right; 
+    display: block;
+}
+.navbar-header
+{
+    border: none;
+    box-shadow: none;
+}
+#navImage
+{
+    position: relative;
+    bottom: 10px;
+}
+.navbar
+{
+    margin-bottom: 0;
+    border-radius: 0;
+    height: auto;
+    background-color: black;
+    border: none;
+    box-shadow: none;
+}
+.navbar .container
+{
+    border: none;
+    box-shadow: none;
+}
+.navbar .navbar-brand 
+{
+    color: white;
+    float: left;
+    display: block;
+    top: -10px;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out ;
+}
+.navbar .navbar-brand:hover
+{
+    opacity: 0.5;
+}
+.navbar .navbar-brand:hover
+{
+    color: #FFF7CE;
+}
+.navbar .navbar-nav
+{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    border: none;
+    box-shadow: none;
+}
+.navbar .navbar-collapse  
+{
+    text-align: center;
+    border: none;
+    box-shadow: none;
+}
+#navContent
+{
+    border: none;
+    box-shadow: none;
+}
+#navContent li a
+{
+    font-size: 25px;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+}
+#navContent li a:before
+{
+    content: "";
+    position: absolute;
+    justify-content: center;
+    width: 60%;
+    height: 3%;
+    bottom: 25%;
+    left: 21%;
+	background-color: #BFBFBF ;
+	visibility: visible;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+#navContent #navImage a:before
+{
+    display: none;
+}
+
+#navContent li a:hover:before
+{
+	visibility: visible ;
+	-webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+#navImage a:hover
+{
+    opacity: 0.3;
+}
+#navContent li a:visited
+{
+	color: white ;
+	text-decoration: none;
+}
+#navContent li a:hover
+{
+	color: #bfbfbf ;
+    text-decoration: none;
+}
+
+#navContent li a
+{
+	color:white ;
+	text-decoration: none;
+}
+#projectHead
+{
+    font-size: 75px;
+}
+.jumbotron
+{
+    color: white;
+    background-color: black;
+
+}
+.jumbotron h1
+{
+    position: relative;
+    font-size: 150px;
+    font-weight: bold;
+    top: 30px;
+    color: white;
+}
+.jumbotron h2
+{
+    font-size: 50px;
+}
+.jumbotron h3
+{
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+#halfC
+{
+   
+    position: relative;
+    top: 35px;
+    width: 30px;
+    height: auto;
+}
+#resumeLink
+{
+    border-radius: 25px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    background-color: transparent;
+    width: 200px;
+    height: 50px;
+    padding-top: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+#resumeLink:visited
+{
+    color: white;
+    text-decoration: none;
+}
+#resumeLink:hover
+{
+    color: #BFBFBF;
+}
+#maskImage1
+{
+    position: absolute;
+    left: 0%;
+    top: 60%;
+    width: 7.5%;
+    float: right; 
+    display: block;
+}
+.container
+{
+    color: white;
+}
+.container h1, h4
+{
+    padding-left: 15px;
+}
+.jumbotron h3
+{
+    width: 100%;
+}
+#description
+{
+    width: 80%;
+}
+#maskImage6
+{
+    position: absolute;
+    top: 150%;
+    left: 92.5%;
+    width: 7.5%;
+    display: block;
+}
+
+#projectImage
+{
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: ease-in-out .3s;
+    backface-visibility: hidden;
+    pointer-events: visible;
+}
+#projectImage:hover
+{
+    opacity: 0.3;
+}
+footer
+{
+    color: white;
+}
+#projectImage:hover + #projectImageText
+{
+    opacity: 1;
+    text-decoration: none;
+}
+#projectImageText
+{
+    position: relative;
+    top: -190px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    -webkit-transition: .3s ease-in-out;
+    transition: ease-in-out .3s;
+    text-decoration: none !important;
+}
+a:visited
+{
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: none;
+}
+#footer
+{
+    position: absolute;
+    bottom: 3;
+    width: 100%;
+}
+#topImage #projectImage
+{
+    display: none;
+}
+#topImage2 #projectImage
+{
+    display: auto;
+}
+
+
